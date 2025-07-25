@@ -40,6 +40,6 @@ Whether you're new to AI or curious about how autonomous driving logic works, th
 Clone the repository and run the project in your browser. No installations or builds are required.
 
 ```bash
-git clone https://github.com/YourUsername/Self-Driving-Car-On-Straight-Road.git
+git clone https://github.com/Mors666/Self-Driving-Car-On-Straight-Road.git
 cd Self-Driving-Car-On-Straight-Road
 start index.html

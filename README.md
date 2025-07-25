@@ -1,34 +1,45 @@
-# 🏎️ Self-Driving Car Simulation (No Libraries)  
+# 🚗 Self-Driving Car on a Straight Road (No Libraries)
 
-This is a **self-driving car simulation** built entirely in **vanilla JavaScript** (without any external libraries). The project demonstrates the concepts of **autonomous driving**, **collision detection**, **sensor simulation**, and **artificial neural networks** by implementing every component from scratch.  
-
-The car learns to drive on a straight road and optimize its behavior using a neural network that simulates basic decision-making capabilities.  
-
----
-
-## 🚀 Features
-- 🕹️ **Car Driving Mechanics**: Simulates acceleration, braking, and turning.
-- 🌎 **Environment Setup**: Straight road and borders defined programmatically.
-- 🔥 **Sensor Simulation**: Virtual sensors detect nearby obstacles and lane boundaries.
-- 💥 **Collision Detection**: Prevents the car from leaving the road or hitting obstacles.
-- 🧠 **Neural Network AI**: The car learns how to control itself using a custom-built neural network.
-- 🖤 **No External Libraries**: Entirely written in plain JavaScript.
-- 🖌️ **Neural Network Visualization**: Displays how the neural network makes decisions in real time.  
+[![JavaScript](https://img.shields.io/badge/code-JavaScript-yellow?style=flat-square&logo=javascript)]()  
+[![HTML5](https://img.shields.io/badge/markup-HTML5-orange?style=flat-square&logo=html5)]()  
+[![CSS3](https://img.shields.io/badge/style-CSS3-blue?style=flat-square&logo=css3)]()
 
 ---
 
-## 🎥 Demo
-https://user-images.githubusercontent.com/your-username/demo.gif  
-*(Insert a GIF or link to your simulation video)*  
+## 🧾 About the Project
+
+This is a **pure JavaScript** simulation of a self-driving car built entirely from scratch — no libraries, no frameworks, just raw code.
+
+The project demonstrates how a car can learn to navigate a straight road using a **custom-built neural network** and **virtual sensors** (ray-casting). It provides an educational insight into how self-driving logic can be implemented manually — step by step.
+
+Whether you're new to AI or curious about how autonomous driving logic works, this project serves as an excellent hands-on learning experience.
 
 ---
 
-## 🛠️ Technologies Used
-- ✅ **JavaScript (ES6+)** – Core implementation.  
-- ✅ **HTML5 Canvas** – Rendering the simulation and neural network visualization.  
-- ✅ Neural Networks – Implemented from scratch (no TensorFlow/ML libraries).  
+## 📸 Preview
+
+<p align="center">
+  <img src="./self-driving-car-gif.gif" width="600" alt="Self-Driving Car Demo GIF" />
+</p>
 
 ---
 
-## 📝Note
+## 💡 Key Features
 
+- 🎯 **From Scratch**: No external libraries or machine learning tools
+- 🧠 **Custom Neural Network**: Learns steering and avoids boundaries
+- 📡 **Sensor System**: Simulates LIDAR-like ray sensors
+- 🚧 **Collision Detection**: Detects lane boundaries
+- 🎮 **Real-time Simulation**: Interactive and visualized in the browser
+- 🧪 **Educational Focus**: Built to explain concepts clearly
+
+---
+
+## 📥 Getting Started
+
+Clone the repository and run the project in your browser. No installations or builds are required.
+
+```bash
+git clone https://github.com/YourUsername/Self-Driving-Car-On-Straight-Road.git
+cd Self-Driving-Car-On-Straight-Road
+start index.html
